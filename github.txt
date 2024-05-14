@@ -1,0 +1,8 @@
+git clone "path of the source"
+
+git init
+git add filename
+git commit -m "commitName"
+git push origin "branch"
+
+git pull origin "branch"
