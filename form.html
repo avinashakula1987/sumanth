@@ -1,0 +1,75 @@
+<!Doctype html>
+<Html>
+
+<head>
+	<title>Form</title>	
+</head>
+
+<body>
+	<form method="post" action="form.html" enctype="multipart/form-data">	
+	
+	
+	<table border="1" rules="all" cellpadding='5' >
+		<tr>
+			<td>First Name</td>
+			<td><input type='text' name="firstName" placeholder="First Name" /></td>
+		</tr>
+		<tr>
+			<td>Last Name</td>
+			<td><input type='text' name="lastName" placeholder="Last Name" /></td>
+		</tr>
+		<tr>
+			<td>City</td>
+			<td><input type='text' name="city" placeholder="City" /></td>
+		</tr>
+		<tr>
+			<td>Address</td>
+			<td><textarea name="address" placeholder="Address"></textarea></td>
+		</tr>
+		<tr>
+			<td>Email Id</td>
+			<td><input type='text' name="email" placeholder="Email Id" /></td>
+		</tr>
+		<tr>
+			<td>Contact Number</td>
+			<td><input type='text' name="contact" placeholder="Contact Number" /></td>
+		</tr>
+		<tr>
+			<td>Upload Photo</td>
+			<td><input type='file' name="photo" /></td>
+		</tr>
+		<tr>
+			<td colspan='2'><button>Submit Form</button></td>
+		</tr>
+	</table>
+	
+	<br /><hr /><br />
+	
+	
+		First Name <input type='text' name="firstName" placeholder="First Name" /><br /><br />	
+		Last Name <input type='text' name="lastName" placeholder="Last Name" /><br /><br />
+		City <input type='text' name="city" placeholder="City" /><br /><br />
+		Address <textarea name="address" placeholder="Address"></textarea><br /><br />
+		Email Id <input type='text' name="email" placeholder="Email Id" /><br /><br />
+		Contact Number <input type='text' name="contact" placeholder="Contact Number" /><br /><br />
+		Upload Photo <input type='file' name="photo" /><br /><br />
+		<button>Submit Form</button>
+<!--		<input type='submit' name="submit" value="Submit Form 2" />-->
+	
+	</form>
+</body>
+
+</Html>
+
+<!-- 
+	Camel case - all words will join to gether and form 1 word, but first letter in first work should be small letter
+
+	First name - text
+	Last name - text
+	City - text
+	address - textarea
+	Email - text
+	Contact Number - text
+	Photo - file
+	Button - button	/ submit
+-->
