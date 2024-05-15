@@ -6,10 +6,18 @@
 </head>
 
 <body>
-	<form method="post" action="form.html" enctype="multipart/form-data">	
+	<form method="post" action="form.html">	
 	
 	
 	<table border="1" rules="all" cellpadding='5' >
+		<tr>
+			<td>Password</td>
+			<td><input type='password' name="passsword" placeholder="Passsword" /></td>
+		</tr>
+		<tr>
+			<td>First Name</td>
+			<td><input type='text' name="firstName" placeholder="First Name" /></td>
+		</tr>
 		<tr>
 			<td>First Name</td>
 			<td><input type='text' name="firstName" placeholder="First Name" /></td>
@@ -20,20 +28,74 @@
 		</tr>
 		<tr>
 			<td>City</td>
-			<td><input type='text' name="city" placeholder="City" /></td>
+			<td>
+				<select>
+					<option value="1">Rajahmundry</option>
+					<option value="2">Kakinada</option>
+				</select>
+			</td>
 		</tr>
 		<tr>
 			<td>Address</td>
-			<td><textarea name="address" placeholder="Address"></textarea></td>
+			<td><textarea rows='4' cols="35" name="address" placeholder="Address"></textarea></td>
 		</tr>
 		<tr>
 			<td>Email Id</td>
-			<td><input type='text' name="email" placeholder="Email Id" /></td>
+			<td><input type='email' name="email" placeholder="Email Id" /></td>
 		</tr>
 		<tr>
 			<td>Contact Number</td>
-			<td><input type='text' name="contact" placeholder="Contact Number" /></td>
+			<td><input type='number' name="contact" placeholder="Contact Number" /></td>
 		</tr>
+		
+		
+		<tr>
+			<td valign='top'>Hobbies</td>
+			<td>			
+				<table>
+					<tr>
+						<td>Cricket</td>
+						<td><input type='checkbox' name="cricket" /></td>
+					</tr>
+					
+					<tr>
+						<td>Rugby</td>
+						<td><input type='checkbox' name="rugby" /></td>
+					</tr>
+					<tr>
+						<td>Carroms</td>
+						<td><input type='checkbox' name="carroms" /></td>
+					</tr>
+					<tr>
+						<td>Swimming</td>
+						<td><input type='checkbox' name="swimming" /></td>
+					</tr>
+				</table>				
+				
+			</td>
+		</tr>
+		
+		<tr>
+			<td>Gender</td>
+			<td>
+				<table>
+					<tr>
+						<td>Male</td>
+						<td>
+							<input type="radio" name="gender" value="male">
+						</td>
+					</tr>
+					<tr>
+						<td>FeMale</td>
+						<td>
+							<input type="radio" name="gender" value="female">
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>	
+		
+		
 		<tr>
 			<td>Upload Photo</td>
 			<td><input type='file' name="photo" /></td>
@@ -42,21 +104,9 @@
 			<td colspan='2'><button>Submit Form</button></td>
 		</tr>
 	</table>
-	
-	<br /><hr /><br />
-	
-	
-		First Name <input type='text' name="firstName" placeholder="First Name" /><br /><br />	
-		Last Name <input type='text' name="lastName" placeholder="Last Name" /><br /><br />
-		City <input type='text' name="city" placeholder="City" /><br /><br />
-		Address <textarea name="address" placeholder="Address"></textarea><br /><br />
-		Email Id <input type='text' name="email" placeholder="Email Id" /><br /><br />
-		Contact Number <input type='text' name="contact" placeholder="Contact Number" /><br /><br />
-		Upload Photo <input type='file' name="photo" /><br /><br />
-		<button>Submit Form</button>
-<!--		<input type='submit' name="submit" value="Submit Form 2" />-->
-	
 	</form>
+	
+	
 </body>
 
 </Html>
