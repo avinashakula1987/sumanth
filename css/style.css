@@ -1,0 +1,19 @@
+div p{
+	color:red
+}
+body{
+	background:black;
+	color:pink
+}		
+#third{
+	color:yellow
+}
+.third{
+	color:pink
+}		
+p{
+	color:blue
+}
+body p{
+	color:green
+}		
